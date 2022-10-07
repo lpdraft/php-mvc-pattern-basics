@@ -21,7 +21,6 @@ if(isset($_GET['controler']) && isset($_GET['action'])){
     // echo '</pre>';
 }
  
-
 // Template view + diff php code inclusion
 include_once("views/template.php");
 ?>

@@ -1,5 +1,5 @@
 <?php
-include_once("./conexion.php");
+include_once("./core/conexion.php");
 include_once("./models/hobbie.php");
 
 DB::crearInstancia();

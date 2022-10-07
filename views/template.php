@@ -11,11 +11,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
 <body>
-    <!-- bs5-navbar -->
+  <!-- bs5-navbar -->
 <nav class="navbar navbar-expand navbar-light bg-light">
   <div></div>
     <div class="nav navbar-nav">
@@ -29,8 +28,8 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-          <!-- Aquí va a ir nuestra tabla del CRUD -->
-          <?php include_once("./route.php"); ?>
+        
+          <?php include_once("./core/route.php"); ?>
             
         </div>
     </div>
