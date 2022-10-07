@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-nav {
+  font-size: 22px;
+}
+.nav-item:hover {
+  font-size: 1.01em;
+  font-weight: bold;
+}
+.title-dasboard:hover {
+  transform: scale(1.01);
+}
